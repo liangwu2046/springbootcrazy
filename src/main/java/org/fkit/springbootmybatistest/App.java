@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-// 扫描数据访问层接口的包名。
+// 扫描数据访问层接口的包名,主程序入口App
 @MapperScan("org.fkit.springbootmybatistest.repository") 
 public class App {
 	public static void main(String[] args) {
